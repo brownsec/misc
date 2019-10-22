@@ -48,6 +48,7 @@ RUN go get -u github.com/tomnomnom/gron && \
     go get -u github.com/tomnomnom/meg && \
     go get -u github.com/tomnomnom/unfurl && \
     go get github.com/tomnomnom/waybackurls && \
-    go get -u github.com/tomnomnom/qsreplace.git
+    go get -u github.com/tomnomnom/qsreplace.git && \
+    go get github.com/ffuf/ffuf
 
 CMD ["/bin/bash"]
